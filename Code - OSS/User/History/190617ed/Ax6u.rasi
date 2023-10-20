@@ -1,0 +1,90 @@
+@import "~/.config/rofi/dark-paper.rasi"
+
+* {
+  font: "Terminess Nerd Font regular 10";
+  border-color: @foreground;
+  text-color: @foreground;
+  background-color: @background;
+}
+
+window {
+  width: 75%;
+  height: 75%;
+  orientation: horizontal;
+  location: center;
+  anchor: center;
+  spacing: 0;
+  children: [ mainbox ];
+}
+
+mainbox {
+  spacing: 0;
+  border: 5px;
+  border-radius: 0px;
+  children: [ inputbar, message, listview ];
+}
+
+inputbar {
+  margin: 30px 100px;
+  padding: 10px;
+  border: 5px;
+  border-color: @foreground;
+  border-radius: 0px;
+}
+
+message {
+  border: 0;
+  padding: 0;
+}
+
+entry,
+prompt,
+case-indicator {
+  text-font: inherit;
+  text-color: @foreground;
+}
+
+entry {
+  cursor: pointer;
+  horizontal-align: 0.5;
+}
+
+listview {
+  layout: vertical;
+  padding: 10px;
+  lines: 12;
+  columns: 4;
+  margin: 30px;
+}
+
+element {
+  color: @foreground;
+  orientation: vertical;
+  border: 5px;
+  border-color: @foreground;
+  border-radius: 0px;
+}
+
+
+element-text,
+element-icon {
+  padding: 0px;
+  background-color: inherit;
+  text-color: @foreground;
+  horizontal-align: 0.5;
+}
+
+element-icon {
+  size: 64;
+}
+
+element selected.normal {
+  background-color: @background-selected;
+  border: 5px;
+  border-color: @foreground;
+  border-radius: 0px;
+}
+
+scrollbar {
+  enabled: true;
+}

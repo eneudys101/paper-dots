@@ -1,0 +1,30 @@
+/* mac-style.css */
+#outer-box {
+    margin: 20px;
+}
+
+#inner-box {
+    padding: 20px;
+}
+
+button {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+}
+
+button img {
+    margin-bottom: 5px;
+}
+
+button span {
+    margin-top: 5px;
+}

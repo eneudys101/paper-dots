@@ -1,0 +1,31 @@
+window {
+    background: #F9F3CC;
+    border: 5px solid #171C3B;
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Assuming each app is an individual 'box' */
+box {
+    display: inline-grid; /* Display boxes in a grid */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Set columns to auto-fill */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+
+    font-family: 'Terminess Nerd Font', sans-serif; 
+    font-size: 24px; 
+    border: 2px solid #171C3B;
+    background: #F9F3CC;
+    width: 100px; 
+    height: 100px;
+    margin: 10px;
+}
+
+/* If #inner-box is the container of all boxes */
+#inner-box { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); /* Considering width + margin */
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust space between boxes */
+}

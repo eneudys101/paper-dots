@@ -1,0 +1,3 @@
+FROM exercise-3
+COPY gam.deb /tmp
+RUN dpkg -i /tmp/gam.deb

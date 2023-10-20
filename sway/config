@@ -1,0 +1,155 @@
+# Sway Configuration
+
+
+
+### Variables
+# Logo key and controls
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+
+# Applications
+set $term kitty
+set $menu exec ~/.config/rofi/scripts/rofi-launcher.sh
+set $screenshot wayshot
+
+### Appearance
+
+# Wallpaper
+#output "*" bg ~/Downloads/city-wallpaper.jpg fill
+exec sh -c 'for output in $(swaymsg -t get_outputs | jq -r .[].name); do swaybg -c "#0A0C10" -o $output & done'
+
+
+font pango:Terminess Nerd Font 16
+set $bg-color #060C33
+set $fg-color #FFFFFF
+set $border-color #E8E3C4 
+set $focused-bg #272D44
+set $inactive-bg #171C3B
+
+
+# Windows shadows
+shadows enable
+shadow_blur_radius 10
+
+# Window settings
+default_border pixel 5
+default_floating_border pixel 2
+corner_radius 0
+
+# Window margins
+smart_gaps off
+gaps inner 8
+gaps outer 0
+
+client.focused $border-color $border-color $border-color $fg-color
+client.unfocused $border-color $border-color $border-color $fg-color
+client.focused_inactive $border-color $border-color $border-color $fg-color
+client.urgent $border-color $border-color $border-color $fg-color
+
+
+#client.focused $focused-bg $focused-bg $border_color $fg-color
+#client.unfocused $bg-color $bg-color $border_color $fg-color
+#client.focused_inactive $inactive-bg $inactive-bg $border_color $fg-color
+#client.urgent $bg-color $bg-color $border_color $fg-color
+
+### Features
+scratchpad_minimize disable
+
+### Key Bindings
+
+# Basic operations
+bindsym $mod+Return exec $term
+bindsym $mod+q kill
+bindsym $mod+Shift+s exec $screenshot
+bindsym $mod+m $menu
+floating_modifier $mod normal
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+
+# Moving and focusing
+bindsym $mod+$left focus left
+bindsym $mod+$down focus down
+bindsym $mod+$up focus up
+bindsym $mod+$right focus right
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+bindsym $mod+Shift+$left move left
+bindsym $mod+Shift+$down move down
+bindsym $mod+Shift+$up move up
+bindsym $mod+Shift+$right move right
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Workspaces
+bindsym $mod+1 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 1
+bindsym $mod+2 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 2
+bindsym $mod+3 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 3
+bindsym $mod+4 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 4
+bindsym $mod+5 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 5
+bindsym $mod+6 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 6
+bindsym $mod+7 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 7
+bindsym $mod+8 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 8
+bindsym $mod+9 exec ~/.config/sway/venv/bin/python ~/.config/sway/switch-workspace-by-position.py 9
+
+# ... [similar lines for 2-9]
+bindsym $mod+Shift+1 move container to workspace number 1
+# ... [similar lines for 2-9]
+
+# Layout controls
+bindsym $mod+b splith
+bindsym $mod+v splitv
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+f fullscreen
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+a focus parent
+
+# Scratchpad controls
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
+# Resizing mode
+mode "resize" {
+    bindsym $left resize shrink width 10px
+    bindsym $down resize grow height 10px
+    bindsym $up resize shrink height 10px
+    bindsym $right resize grow width 10px
+    bindsym Left resize shrink width 10px
+    bindsym Down resize grow height 10px
+    bindsym Up resize shrink height 10px
+    bindsym Right resize grow width 10px
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+### Status Bar
+bar {
+    font pango:Terminess Nerd Font 15
+    swaybar_command waybar
+}
+
+### Screensaver
+# Screensaver with cmatrix
+# Set kitty with cmatrix to open in full screen
+#for_window [app_id="kitty" title="^cmatrix$"] fullscreen
+#exec_always swayidle timeout 5 './cmatrix-screensaver.sh'
+
+
+### Miscellaneous
+exec_always ~/.config/sway/run-dynamic-naming-script.sh
+
+
+
+include /etc/sway/config.d/*
+

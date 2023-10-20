@@ -1,0 +1,765 @@
+2023-10-18 19:54:43.812 [info] Log level: Info
+2023-10-18 19:54:43.812 [info] Validating found git in: "git"
+2023-10-18 19:54:43.812 [info] Using git "2.42.0" from "git"
+2023-10-18 19:54:53.119 [info] Log level: Info
+2023-10-18 19:54:53.119 [info] Validating found git in: "git"
+2023-10-18 19:54:53.119 [info] Using git "2.42.0" from "git"
+2023-10-18 19:54:53.119 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-18 19:54:53.130 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-10-18 19:54:53.150 [info] Open repository: /home/ene/.config
+2023-10-18 19:54:53.181 [info] > git rev-parse --show-toplevel [11ms]
+2023-10-18 19:54:53.182 [info] > git config --get commit.template [20ms]
+2023-10-18 19:54:53.219 [info] No remotes found in the git config file.
+2023-10-18 19:54:53.227 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-10-18 19:54:53.240 [info] > git rev-parse --show-toplevel [34ms]
+2023-10-18 19:54:53.293 [info] > git status -z -uall [54ms]
+2023-10-18 19:54:53.293 [info] > git rev-parse --show-toplevel [31ms]
+2023-10-18 19:54:54.075 [info] > git rev-parse --show-toplevel [771ms]
+2023-10-18 19:54:54.102 [info] > git config --get commit.template [30ms]
+2023-10-18 19:54:54.131 [info] > git rev-parse --show-toplevel [32ms]
+2023-10-18 19:54:54.148 [info] No remotes found in the git config file.
+2023-10-18 19:54:54.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2023-10-18 19:54:54.178 [info] > git rev-parse --show-toplevel [20ms]
+2023-10-18 19:54:54.202 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-18 19:54:54.230 [info] > git status -z -uall [55ms]
+2023-10-18 19:54:54.231 [info] > git rev-parse --show-toplevel [7ms]
+2023-10-18 19:54:54.314 [info] > git rev-parse --show-toplevel [6ms]
+2023-10-18 19:54:54.330 [info] > git rev-parse --show-toplevel [4ms]
+2023-10-18 19:54:54.340 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-18 19:54:54.349 [info] > git rev-parse --show-toplevel [2ms]
+2023-10-18 19:54:54.999 [info] > git rev-parse --show-toplevel [643ms]
+2023-10-18 19:54:55.037 [info] > git show --textconv :rofi/menu.rasi [23ms]
+2023-10-18 19:54:55.038 [info] > git check-ignore -v -z --stdin [3ms]
+2023-10-18 19:54:55.039 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [15ms]
+2023-10-18 19:54:55.970 [info] > git show --textconv :rofi/dark-paper.rasi [15ms]
+2023-10-18 19:54:55.973 [info] > git ls-files --stage -- /home/ene/.config/rofi/dark-paper.rasi [4ms]
+2023-10-18 19:54:57.295 [info] > git config --get commit.template [3ms]
+2023-10-18 19:54:57.310 [info] No remotes found in the git config file.
+2023-10-18 19:54:57.313 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 19:54:57.350 [info] > git status -z -uall [21ms]
+2023-10-18 19:54:58.069 [info] > git show --textconv :rofi/menu.rasi [13ms]
+2023-10-18 19:54:58.071 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [3ms]
+2023-10-18 19:54:59.583 [info] > git show --textconv :rofi/dark-paper.rasi [17ms]
+2023-10-18 19:54:59.584 [info] > git ls-files --stage -- /home/ene/.config/rofi/dark-paper.rasi [2ms]
+2023-10-18 19:55:02.463 [info] > git config --get commit.template [7ms]
+2023-10-18 19:55:02.477 [info] No remotes found in the git config file.
+2023-10-18 19:55:02.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 19:55:02.511 [info] > git status -z -uall [17ms]
+2023-10-18 19:55:07.638 [info] No remotes found in the git config file.
+2023-10-18 19:55:07.640 [info] > git config --get commit.template [17ms]
+2023-10-18 19:55:07.642 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-18 19:55:07.684 [info] > git status -z -uall [26ms]
+2023-10-18 19:55:09.658 [info] > git show --textconv :waybar/style.css [13ms]
+2023-10-18 19:55:09.661 [info] > git ls-files --stage -- /home/ene/.config/waybar/style.css [5ms]
+2023-10-18 19:55:12.792 [info] No remotes found in the git config file.
+2023-10-18 19:55:12.793 [info] > git config --get commit.template [18ms]
+2023-10-18 19:55:12.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 19:55:12.836 [info] > git status -z -uall [26ms]
+2023-10-18 19:55:17.960 [info] No remotes found in the git config file.
+2023-10-18 19:55:17.961 [info] > git config --get commit.template [19ms]
+2023-10-18 19:55:17.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-18 19:55:18.000 [info] > git status -z -uall [21ms]
+2023-10-18 19:55:23.096 [info] > git config --get commit.template [3ms]
+2023-10-18 19:55:23.113 [info] No remotes found in the git config file.
+2023-10-18 19:55:23.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 19:55:23.146 [info] > git status -z -uall [16ms]
+2023-10-18 19:55:28.222 [info] > git config --get commit.template [2ms]
+2023-10-18 19:55:28.234 [info] No remotes found in the git config file.
+2023-10-18 19:55:28.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 19:55:28.269 [info] > git status -z -uall [20ms]
+2023-10-18 19:55:30.179 [info] > git show --textconv :rofi/dark-paper.rasi [21ms]
+2023-10-18 19:55:30.183 [info] > git ls-files --stage -- /home/ene/.config/rofi/dark-paper.rasi [5ms]
+2023-10-18 19:55:33.369 [info] > git config --get commit.template [2ms]
+2023-10-18 19:55:33.385 [info] No remotes found in the git config file.
+2023-10-18 19:55:33.387 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 19:55:33.423 [info] > git status -z -uall [19ms]
+2023-10-18 19:55:38.530 [info] > git config --get commit.template [2ms]
+2023-10-18 19:55:38.547 [info] No remotes found in the git config file.
+2023-10-18 19:55:38.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 19:55:38.587 [info] > git status -z -uall [20ms]
+2023-10-18 19:55:43.692 [info] > git config --get commit.template [3ms]
+2023-10-18 19:55:43.710 [info] No remotes found in the git config file.
+2023-10-18 19:55:43.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 19:55:43.743 [info] > git status -z -uall [16ms]
+2023-10-18 19:55:52.214 [info] > git config --get commit.template [2ms]
+2023-10-18 19:55:52.228 [info] No remotes found in the git config file.
+2023-10-18 19:55:52.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 19:55:52.261 [info] > git status -z -uall [19ms]
+2023-10-18 19:55:54.496 [info] > git show --textconv :waybar/style.css [16ms]
+2023-10-18 19:55:54.501 [info] > git ls-files --stage -- /home/ene/.config/waybar/style.css [6ms]
+2023-10-18 19:55:57.290 [info] > git show --textconv :rofi/menu.rasi [18ms]
+2023-10-18 19:55:57.292 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [2ms]
+2023-10-18 19:55:57.345 [info] > git config --get commit.template [2ms]
+2023-10-18 19:55:57.356 [info] No remotes found in the git config file.
+2023-10-18 19:55:57.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 19:55:57.386 [info] > git status -z -uall [19ms]
+2023-10-18 19:56:02.485 [info] No remotes found in the git config file.
+2023-10-18 19:56:02.486 [info] > git config --get commit.template [20ms]
+2023-10-18 19:56:02.493 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-10-18 19:56:02.529 [info] > git status -z -uall [19ms]
+2023-10-18 19:56:07.636 [info] No remotes found in the git config file.
+2023-10-18 19:56:07.637 [info] > git config --get commit.template [22ms]
+2023-10-18 19:56:07.643 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 19:56:07.683 [info] > git status -z -uall [23ms]
+2023-10-18 19:56:12.836 [info] > git config --get commit.template [3ms]
+2023-10-18 19:56:12.852 [info] No remotes found in the git config file.
+2023-10-18 19:56:12.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 19:56:12.887 [info] > git status -z -uall [19ms]
+2023-10-18 19:56:17.972 [info] No remotes found in the git config file.
+2023-10-18 19:56:17.973 [info] > git config --get commit.template [14ms]
+2023-10-18 19:56:17.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 19:56:18.005 [info] > git status -z -uall [20ms]
+2023-10-18 19:56:23.105 [info] No remotes found in the git config file.
+2023-10-18 19:56:23.107 [info] > git config --get commit.template [19ms]
+2023-10-18 19:56:23.109 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-18 19:56:23.141 [info] > git status -z -uall [19ms]
+2023-10-18 19:57:15.871 [info] > git config --get commit.template [2ms]
+2023-10-18 19:57:15.878 [info] No remotes found in the git config file.
+2023-10-18 19:57:15.879 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 19:57:15.907 [info] > git status -z -uall [21ms]
+2023-10-18 19:57:21.013 [info] No remotes found in the git config file.
+2023-10-18 19:57:21.015 [info] > git config --get commit.template [17ms]
+2023-10-18 19:57:21.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 19:57:21.055 [info] > git status -z -uall [20ms]
+2023-10-18 19:57:24.665 [info] > git show --textconv :sway/config [22ms]
+2023-10-18 19:57:24.673 [info] > git ls-files --stage -- /home/ene/.config/sway/config [10ms]
+2023-10-18 19:57:26.136 [info] > git config --get commit.template [2ms]
+2023-10-18 19:57:26.144 [info] No remotes found in the git config file.
+2023-10-18 19:57:26.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 19:57:26.167 [info] > git status -z -uall [14ms]
+2023-10-18 19:57:31.257 [info] No remotes found in the git config file.
+2023-10-18 19:57:31.258 [info] > git config --get commit.template [20ms]
+2023-10-18 19:57:31.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 19:57:31.300 [info] > git status -z -uall [22ms]
+2023-10-18 19:57:36.448 [info] > git config --get commit.template [3ms]
+2023-10-18 19:57:36.464 [info] No remotes found in the git config file.
+2023-10-18 19:57:36.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 19:57:36.504 [info] > git status -z -uall [22ms]
+2023-10-18 20:00:01.697 [info] > git config --get commit.template [3ms]
+2023-10-18 20:00:01.709 [info] No remotes found in the git config file.
+2023-10-18 20:00:01.712 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-18 20:00:01.746 [info] > git status -z -uall [22ms]
+2023-10-18 20:00:04.518 [info] > git show --textconv :rofi/menu.rasi [18ms]
+2023-10-18 20:00:04.523 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [7ms]
+2023-10-18 20:00:06.835 [info] > git config --get commit.template [3ms]
+2023-10-18 20:00:06.849 [info] No remotes found in the git config file.
+2023-10-18 20:00:06.852 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:00:06.887 [info] > git status -z -uall [20ms]
+2023-10-18 20:00:17.143 [info] No remotes found in the git config file.
+2023-10-18 20:00:17.144 [info] > git config --get commit.template [14ms]
+2023-10-18 20:00:17.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:00:17.183 [info] > git status -z -uall [27ms]
+2023-10-18 20:00:34.977 [info] No remotes found in the git config file.
+2023-10-18 20:00:34.979 [info] > git config --get commit.template [14ms]
+2023-10-18 20:00:34.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:00:35.012 [info] > git status -z -uall [21ms]
+2023-10-18 20:00:40.105 [info] > git config --get commit.template [5ms]
+2023-10-18 20:00:40.119 [info] No remotes found in the git config file.
+2023-10-18 20:00:40.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:00:40.161 [info] > git status -z -uall [23ms]
+2023-10-18 20:00:45.256 [info] > git config --get commit.template [3ms]
+2023-10-18 20:00:45.265 [info] No remotes found in the git config file.
+2023-10-18 20:00:45.266 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:00:45.303 [info] > git status -z -uall [24ms]
+2023-10-18 20:01:06.465 [info] > git config --get commit.template [3ms]
+2023-10-18 20:01:06.479 [info] No remotes found in the git config file.
+2023-10-18 20:01:06.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:01:06.514 [info] > git status -z -uall [20ms]
+2023-10-18 20:01:11.631 [info] > git config --get commit.template [4ms]
+2023-10-18 20:01:11.645 [info] No remotes found in the git config file.
+2023-10-18 20:01:11.647 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:01:11.680 [info] > git status -z -uall [20ms]
+2023-10-18 20:01:16.783 [info] > git config --get commit.template [2ms]
+2023-10-18 20:01:16.793 [info] No remotes found in the git config file.
+2023-10-18 20:01:16.794 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:01:16.819 [info] > git status -z -uall [17ms]
+2023-10-18 20:01:21.906 [info] No remotes found in the git config file.
+2023-10-18 20:01:21.907 [info] > git config --get commit.template [18ms]
+2023-10-18 20:01:21.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:01:21.945 [info] > git status -z -uall [20ms]
+2023-10-18 20:01:33.005 [info] No remotes found in the git config file.
+2023-10-18 20:01:33.007 [info] > git config --get commit.template [14ms]
+2023-10-18 20:01:33.008 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:01:33.036 [info] > git status -z -uall [19ms]
+2023-10-18 20:01:38.134 [info] No remotes found in the git config file.
+2023-10-18 20:01:38.135 [info] > git config --get commit.template [16ms]
+2023-10-18 20:01:38.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:01:38.174 [info] > git status -z -uall [23ms]
+2023-10-18 20:01:43.295 [info] No remotes found in the git config file.
+2023-10-18 20:01:43.295 [info] > git config --get commit.template [19ms]
+2023-10-18 20:01:43.297 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:01:43.332 [info] > git status -z -uall [19ms]
+2023-10-18 20:01:48.449 [info] No remotes found in the git config file.
+2023-10-18 20:01:48.450 [info] > git config --get commit.template [17ms]
+2023-10-18 20:01:48.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:01:48.491 [info] > git status -z -uall [19ms]
+2023-10-18 20:01:53.614 [info] No remotes found in the git config file.
+2023-10-18 20:01:53.629 [info] > git config --get commit.template [18ms]
+2023-10-18 20:01:53.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:01:53.666 [info] > git status -z -uall [21ms]
+2023-10-18 20:01:58.802 [info] No remotes found in the git config file.
+2023-10-18 20:01:58.803 [info] > git config --get commit.template [17ms]
+2023-10-18 20:01:58.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:01:58.843 [info] > git status -z -uall [21ms]
+2023-10-18 20:02:03.958 [info] > git config --get commit.template [2ms]
+2023-10-18 20:02:03.974 [info] No remotes found in the git config file.
+2023-10-18 20:02:03.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:02:04.005 [info] > git status -z -uall [18ms]
+2023-10-18 20:02:09.095 [info] No remotes found in the git config file.
+2023-10-18 20:02:09.096 [info] > git config --get commit.template [15ms]
+2023-10-18 20:02:09.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:02:09.129 [info] > git status -z -uall [18ms]
+2023-10-18 20:02:14.278 [info] > git config --get commit.template [3ms]
+2023-10-18 20:02:14.291 [info] No remotes found in the git config file.
+2023-10-18 20:02:14.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:02:14.324 [info] > git status -z -uall [18ms]
+2023-10-18 20:02:19.419 [info] No remotes found in the git config file.
+2023-10-18 20:02:19.420 [info] > git config --get commit.template [18ms]
+2023-10-18 20:02:19.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:02:19.457 [info] > git status -z -uall [20ms]
+2023-10-18 20:02:24.583 [info] No remotes found in the git config file.
+2023-10-18 20:02:24.584 [info] > git config --get commit.template [16ms]
+2023-10-18 20:02:24.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:02:24.613 [info] > git status -z -uall [19ms]
+2023-10-18 20:02:29.725 [info] No remotes found in the git config file.
+2023-10-18 20:02:29.726 [info] > git config --get commit.template [17ms]
+2023-10-18 20:02:29.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-18 20:02:29.753 [info] > git status -z -uall [19ms]
+2023-10-18 20:02:34.853 [info] No remotes found in the git config file.
+2023-10-18 20:02:34.855 [info] > git config --get commit.template [16ms]
+2023-10-18 20:02:34.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:02:34.892 [info] > git status -z -uall [20ms]
+2023-10-18 20:02:40.003 [info] No remotes found in the git config file.
+2023-10-18 20:02:40.004 [info] > git config --get commit.template [16ms]
+2023-10-18 20:02:40.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:02:40.039 [info] > git status -z -uall [19ms]
+2023-10-18 20:02:45.165 [info] No remotes found in the git config file.
+2023-10-18 20:02:45.166 [info] > git config --get commit.template [19ms]
+2023-10-18 20:02:45.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:02:45.205 [info] > git status -z -uall [21ms]
+2023-10-18 20:02:50.479 [info] No remotes found in the git config file.
+2023-10-18 20:02:50.481 [info] > git config --get commit.template [15ms]
+2023-10-18 20:02:50.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:02:50.515 [info] > git status -z -uall [21ms]
+2023-10-18 20:02:55.612 [info] No remotes found in the git config file.
+2023-10-18 20:02:55.613 [info] > git config --get commit.template [18ms]
+2023-10-18 20:02:55.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:02:55.651 [info] > git status -z -uall [20ms]
+2023-10-18 20:03:00.768 [info] > git config --get commit.template [3ms]
+2023-10-18 20:03:00.786 [info] No remotes found in the git config file.
+2023-10-18 20:03:00.788 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:03:00.823 [info] > git status -z -uall [20ms]
+2023-10-18 20:03:01.909 [info] > git show --textconv :sway/config [16ms]
+2023-10-18 20:03:01.913 [info] > git ls-files --stage -- /home/ene/.config/sway/config [5ms]
+2023-10-18 20:03:05.946 [info] No remotes found in the git config file.
+2023-10-18 20:03:05.947 [info] > git config --get commit.template [18ms]
+2023-10-18 20:03:05.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:03:05.984 [info] > git status -z -uall [20ms]
+2023-10-18 20:03:11.112 [info] No remotes found in the git config file.
+2023-10-18 20:03:11.113 [info] > git config --get commit.template [20ms]
+2023-10-18 20:03:11.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:03:11.150 [info] > git status -z -uall [19ms]
+2023-10-18 20:03:16.278 [info] No remotes found in the git config file.
+2023-10-18 20:03:16.279 [info] > git config --get commit.template [20ms]
+2023-10-18 20:03:16.285 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:03:16.320 [info] > git status -z -uall [19ms]
+2023-10-18 20:03:21.408 [info] > git config --get commit.template [2ms]
+2023-10-18 20:03:21.428 [info] No remotes found in the git config file.
+2023-10-18 20:03:21.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:03:21.469 [info] > git status -z -uall [19ms]
+2023-10-18 20:03:26.585 [info] No remotes found in the git config file.
+2023-10-18 20:03:26.586 [info] > git config --get commit.template [22ms]
+2023-10-18 20:03:26.588 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:03:26.626 [info] > git status -z -uall [19ms]
+2023-10-18 20:03:31.734 [info] No remotes found in the git config file.
+2023-10-18 20:03:31.735 [info] > git config --get commit.template [22ms]
+2023-10-18 20:03:31.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-10-18 20:03:31.779 [info] > git status -z -uall [21ms]
+2023-10-18 20:03:34.704 [info] > git show --textconv :rofi/dark-paper.rasi [19ms]
+2023-10-18 20:03:34.708 [info] > git ls-files --stage -- /home/ene/.config/rofi/dark-paper.rasi [5ms]
+2023-10-18 20:03:35.400 [info] > git show --textconv :rofi/menu.rasi [19ms]
+2023-10-18 20:03:35.401 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [2ms]
+2023-10-18 20:03:36.861 [info] No remotes found in the git config file.
+2023-10-18 20:03:36.862 [info] > git config --get commit.template [21ms]
+2023-10-18 20:03:36.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:03:36.901 [info] > git status -z -uall [18ms]
+2023-10-18 20:03:38.215 [info] > git show --textconv :rofi/config.rasi [18ms]
+2023-10-18 20:03:38.219 [info] > git ls-files --stage -- /home/ene/.config/rofi/config.rasi [5ms]
+2023-10-18 20:03:41.998 [info] No remotes found in the git config file.
+2023-10-18 20:03:41.998 [info] > git config --get commit.template [18ms]
+2023-10-18 20:03:42.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:03:42.039 [info] > git status -z -uall [22ms]
+2023-10-18 20:03:47.153 [info] No remotes found in the git config file.
+2023-10-18 20:03:47.154 [info] > git config --get commit.template [17ms]
+2023-10-18 20:03:47.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:03:47.192 [info] > git status -z -uall [18ms]
+2023-10-18 20:03:52.302 [info] No remotes found in the git config file.
+2023-10-18 20:03:52.303 [info] > git config --get commit.template [11ms]
+2023-10-18 20:03:52.307 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-10-18 20:03:52.332 [info] > git status -z -uall [15ms]
+2023-10-18 20:03:57.431 [info] No remotes found in the git config file.
+2023-10-18 20:03:57.432 [info] > git config --get commit.template [18ms]
+2023-10-18 20:03:57.433 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:03:57.482 [info] > git status -z -uall [31ms]
+2023-10-18 20:04:02.616 [info] > git config --get commit.template [4ms]
+2023-10-18 20:04:02.626 [info] No remotes found in the git config file.
+2023-10-18 20:04:02.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:04:02.655 [info] > git status -z -uall [16ms]
+2023-10-18 20:04:07.750 [info] No remotes found in the git config file.
+2023-10-18 20:04:07.752 [info] > git config --get commit.template [25ms]
+2023-10-18 20:04:07.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:04:07.790 [info] > git status -z -uall [20ms]
+2023-10-18 20:04:08.449 [info] > git show --textconv :rofi/menu.rasi [14ms]
+2023-10-18 20:04:08.454 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [5ms]
+2023-10-18 20:04:12.193 [info] > git show --textconv :waybar/config [17ms]
+2023-10-18 20:04:12.196 [info] > git ls-files --stage -- /home/ene/.config/waybar/config [6ms]
+2023-10-18 20:04:12.861 [info] No remotes found in the git config file.
+2023-10-18 20:04:12.862 [info] > git config --get commit.template [10ms]
+2023-10-18 20:04:12.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:04:12.906 [info] > git status -z -uall [26ms]
+2023-10-18 20:04:17.402 [info] > git show --textconv :sway/config [18ms]
+2023-10-18 20:04:17.407 [info] > git ls-files --stage -- /home/ene/.config/sway/config [5ms]
+2023-10-18 20:04:17.980 [info] No remotes found in the git config file.
+2023-10-18 20:04:17.981 [info] > git config --get commit.template [9ms]
+2023-10-18 20:04:17.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-18 20:04:18.004 [info] > git status -z -uall [14ms]
+2023-10-18 20:04:23.094 [info] No remotes found in the git config file.
+2023-10-18 20:04:23.095 [info] > git config --get commit.template [17ms]
+2023-10-18 20:04:23.097 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:04:23.132 [info] > git status -z -uall [19ms]
+2023-10-18 20:04:28.251 [info] No remotes found in the git config file.
+2023-10-18 20:04:28.252 [info] > git config --get commit.template [17ms]
+2023-10-18 20:04:28.254 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:04:28.289 [info] > git status -z -uall [20ms]
+2023-10-18 20:04:33.415 [info] No remotes found in the git config file.
+2023-10-18 20:04:33.416 [info] > git config --get commit.template [17ms]
+2023-10-18 20:04:33.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:04:33.460 [info] > git status -z -uall [22ms]
+2023-10-18 20:04:38.571 [info] No remotes found in the git config file.
+2023-10-18 20:04:38.572 [info] > git config --get commit.template [17ms]
+2023-10-18 20:04:38.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:04:38.615 [info] > git status -z -uall [20ms]
+2023-10-18 20:04:43.743 [info] No remotes found in the git config file.
+2023-10-18 20:04:43.743 [info] > git config --get commit.template [17ms]
+2023-10-18 20:04:43.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-10-18 20:04:43.786 [info] > git status -z -uall [20ms]
+2023-10-18 20:04:48.908 [info] No remotes found in the git config file.
+2023-10-18 20:04:48.908 [info] > git config --get commit.template [15ms]
+2023-10-18 20:04:48.913 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:04:48.943 [info] > git status -z -uall [20ms]
+2023-10-18 20:04:54.022 [info] No remotes found in the git config file.
+2023-10-18 20:04:54.023 [info] > git config --get commit.template [18ms]
+2023-10-18 20:04:54.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:04:54.056 [info] > git status -z -uall [17ms]
+2023-10-18 20:04:59.141 [info] No remotes found in the git config file.
+2023-10-18 20:04:59.142 [info] > git config --get commit.template [19ms]
+2023-10-18 20:04:59.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:04:59.179 [info] > git status -z -uall [20ms]
+2023-10-18 20:05:04.308 [info] No remotes found in the git config file.
+2023-10-18 20:05:04.309 [info] > git config --get commit.template [15ms]
+2023-10-18 20:05:04.314 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-10-18 20:05:04.340 [info] > git status -z -uall [15ms]
+2023-10-18 20:05:09.434 [info] No remotes found in the git config file.
+2023-10-18 20:05:09.435 [info] > git config --get commit.template [19ms]
+2023-10-18 20:05:09.436 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:05:09.473 [info] > git status -z -uall [20ms]
+2023-10-18 20:05:12.124 [info] > git show --textconv :rofi/menu.rasi [20ms]
+2023-10-18 20:05:12.128 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [4ms]
+2023-10-18 20:05:14.612 [info] No remotes found in the git config file.
+2023-10-18 20:05:14.613 [info] > git config --get commit.template [19ms]
+2023-10-18 20:05:14.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:05:14.653 [info] > git status -z -uall [20ms]
+2023-10-18 20:05:16.423 [info] > git show --textconv :waybar/config [12ms]
+2023-10-18 20:05:16.426 [info] > git ls-files --stage -- /home/ene/.config/waybar/config [4ms]
+2023-10-18 20:05:19.771 [info] No remotes found in the git config file.
+2023-10-18 20:05:19.772 [info] > git config --get commit.template [19ms]
+2023-10-18 20:05:19.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:05:19.812 [info] > git status -z -uall [20ms]
+2023-10-18 20:05:24.926 [info] No remotes found in the git config file.
+2023-10-18 20:05:24.927 [info] > git config --get commit.template [19ms]
+2023-10-18 20:05:24.928 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:05:24.966 [info] > git status -z -uall [22ms]
+2023-10-18 20:05:30.107 [info] > git config --get commit.template [3ms]
+2023-10-18 20:05:30.126 [info] No remotes found in the git config file.
+2023-10-18 20:05:30.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-18 20:05:30.166 [info] > git status -z -uall [19ms]
+2023-10-18 20:05:35.266 [info] No remotes found in the git config file.
+2023-10-18 20:05:35.267 [info] > git config --get commit.template [20ms]
+2023-10-18 20:05:35.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:05:35.309 [info] > git status -z -uall [21ms]
+2023-10-18 20:05:36.962 [info] > git show --textconv :rofi/menu.rasi [16ms]
+2023-10-18 20:05:36.964 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [3ms]
+2023-10-18 20:05:38.215 [info] > git show --textconv :sway/config [19ms]
+2023-10-18 20:05:38.217 [info] > git ls-files --stage -- /home/ene/.config/sway/config [3ms]
+2023-10-18 20:05:40.432 [info] No remotes found in the git config file.
+2023-10-18 20:05:40.433 [info] > git config --get commit.template [15ms]
+2023-10-18 20:05:40.434 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:05:40.470 [info] > git status -z -uall [21ms]
+2023-10-18 20:05:41.765 [info] > git show --textconv :rofi/config.rasi [14ms]
+2023-10-18 20:05:41.768 [info] > git ls-files --stage -- /home/ene/.config/rofi/config.rasi [3ms]
+2023-10-18 20:05:45.572 [info] > git config --get commit.template [2ms]
+2023-10-18 20:05:45.589 [info] No remotes found in the git config file.
+2023-10-18 20:05:45.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:05:45.623 [info] > git status -z -uall [19ms]
+2023-10-18 20:05:50.712 [info] No remotes found in the git config file.
+2023-10-18 20:05:50.713 [info] > git config --get commit.template [19ms]
+2023-10-18 20:05:50.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:05:50.754 [info] > git status -z -uall [20ms]
+2023-10-18 20:05:55.872 [info] > git config --get commit.template [7ms]
+2023-10-18 20:05:55.888 [info] No remotes found in the git config file.
+2023-10-18 20:05:55.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:05:55.925 [info] > git status -z -uall [20ms]
+2023-10-18 20:05:56.945 [info] > git show --textconv :rofi/menu.rasi [17ms]
+2023-10-18 20:05:56.948 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [4ms]
+2023-10-18 20:05:58.705 [info] > git show --textconv :rofi/icons.sh [16ms]
+2023-10-18 20:05:58.711 [info] > git ls-files --stage -- /home/ene/.config/rofi/icons.sh [7ms]
+2023-10-18 20:06:01.035 [info] No remotes found in the git config file.
+2023-10-18 20:06:01.036 [info] > git config --get commit.template [16ms]
+2023-10-18 20:06:01.038 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:06:01.072 [info] > git status -z -uall [19ms]
+2023-10-18 20:06:01.781 [info] > git show --textconv :rofi/menu.rasi [16ms]
+2023-10-18 20:06:01.787 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [7ms]
+2023-10-18 20:06:06.189 [info] No remotes found in the git config file.
+2023-10-18 20:06:06.190 [info] > git config --get commit.template [17ms]
+2023-10-18 20:06:06.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:06:06.226 [info] > git status -z -uall [19ms]
+2023-10-18 20:06:11.341 [info] No remotes found in the git config file.
+2023-10-18 20:06:11.342 [info] > git config --get commit.template [17ms]
+2023-10-18 20:06:11.343 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:06:11.380 [info] > git status -z -uall [21ms]
+2023-10-18 20:06:16.503 [info] No remotes found in the git config file.
+2023-10-18 20:06:16.504 [info] > git config --get commit.template [17ms]
+2023-10-18 20:06:16.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:06:16.542 [info] > git status -z -uall [22ms]
+2023-10-18 20:06:21.673 [info] No remotes found in the git config file.
+2023-10-18 20:06:21.675 [info] > git config --get commit.template [17ms]
+2023-10-18 20:06:21.678 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-18 20:06:21.713 [info] > git status -z -uall [19ms]
+2023-10-18 20:06:26.828 [info] No remotes found in the git config file.
+2023-10-18 20:06:26.829 [info] > git config --get commit.template [17ms]
+2023-10-18 20:06:26.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:06:26.866 [info] > git status -z -uall [19ms]
+2023-10-18 20:06:47.985 [info] No remotes found in the git config file.
+2023-10-18 20:06:47.986 [info] > git config --get commit.template [13ms]
+2023-10-18 20:06:47.987 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:06:48.015 [info] > git status -z -uall [19ms]
+2023-10-18 20:06:53.134 [info] No remotes found in the git config file.
+2023-10-18 20:06:53.135 [info] > git config --get commit.template [17ms]
+2023-10-18 20:06:53.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:06:53.179 [info] > git status -z -uall [27ms]
+2023-10-18 20:06:58.287 [info] No remotes found in the git config file.
+2023-10-18 20:06:58.302 [info] > git config --get commit.template [16ms]
+2023-10-18 20:06:58.303 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:06:58.339 [info] > git status -z -uall [19ms]
+2023-10-18 20:07:03.441 [info] No remotes found in the git config file.
+2023-10-18 20:07:03.441 [info] > git config --get commit.template [15ms]
+2023-10-18 20:07:03.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:07:03.482 [info] > git status -z -uall [20ms]
+2023-10-18 20:07:08.610 [info] No remotes found in the git config file.
+2023-10-18 20:07:08.611 [info] > git config --get commit.template [19ms]
+2023-10-18 20:07:08.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:07:08.645 [info] > git status -z -uall [19ms]
+2023-10-18 20:07:09.883 [info] > git show --textconv :rofi/dark-paper.rasi [18ms]
+2023-10-18 20:07:09.887 [info] > git ls-files --stage -- /home/ene/.config/rofi/dark-paper.rasi [5ms]
+2023-10-18 20:07:11.830 [info] > git show --textconv :rofi/menu.rasi [18ms]
+2023-10-18 20:07:11.834 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [4ms]
+2023-10-18 20:07:13.764 [info] No remotes found in the git config file.
+2023-10-18 20:07:13.765 [info] > git config --get commit.template [17ms]
+2023-10-18 20:07:13.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:07:13.803 [info] > git status -z -uall [19ms]
+2023-10-18 20:07:18.929 [info] No remotes found in the git config file.
+2023-10-18 20:07:18.930 [info] > git config --get commit.template [18ms]
+2023-10-18 20:07:18.935 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:07:18.968 [info] > git status -z -uall [20ms]
+2023-10-18 20:07:24.080 [info] No remotes found in the git config file.
+2023-10-18 20:07:24.081 [info] > git config --get commit.template [20ms]
+2023-10-18 20:07:24.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:07:24.122 [info] > git status -z -uall [19ms]
+2023-10-18 20:07:29.242 [info] No remotes found in the git config file.
+2023-10-18 20:07:29.243 [info] > git config --get commit.template [16ms]
+2023-10-18 20:07:29.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:07:29.286 [info] > git status -z -uall [22ms]
+2023-10-18 20:07:34.396 [info] No remotes found in the git config file.
+2023-10-18 20:07:34.397 [info] > git config --get commit.template [20ms]
+2023-10-18 20:07:34.398 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:07:34.435 [info] > git status -z -uall [19ms]
+2023-10-18 20:07:39.564 [info] No remotes found in the git config file.
+2023-10-18 20:07:39.565 [info] > git config --get commit.template [18ms]
+2023-10-18 20:07:39.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:07:39.602 [info] > git status -z -uall [19ms]
+2023-10-18 20:07:44.731 [info] No remotes found in the git config file.
+2023-10-18 20:07:44.732 [info] > git config --get commit.template [19ms]
+2023-10-18 20:07:44.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:07:44.771 [info] > git status -z -uall [20ms]
+2023-10-18 20:07:49.888 [info] No remotes found in the git config file.
+2023-10-18 20:07:49.889 [info] > git config --get commit.template [19ms]
+2023-10-18 20:07:49.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:07:49.932 [info] > git status -z -uall [19ms]
+2023-10-18 20:07:55.068 [info] No remotes found in the git config file.
+2023-10-18 20:07:55.069 [info] > git config --get commit.template [20ms]
+2023-10-18 20:07:55.070 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:07:55.110 [info] > git status -z -uall [19ms]
+2023-10-18 20:08:00.241 [info] No remotes found in the git config file.
+2023-10-18 20:08:00.242 [info] > git config --get commit.template [19ms]
+2023-10-18 20:08:00.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:08:00.280 [info] > git status -z -uall [19ms]
+2023-10-18 20:08:05.397 [info] No remotes found in the git config file.
+2023-10-18 20:08:05.398 [info] > git config --get commit.template [19ms]
+2023-10-18 20:08:05.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:08:05.433 [info] > git status -z -uall [19ms]
+2023-10-18 20:08:10.557 [info] No remotes found in the git config file.
+2023-10-18 20:08:10.558 [info] > git config --get commit.template [23ms]
+2023-10-18 20:08:10.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:08:10.600 [info] > git status -z -uall [20ms]
+2023-10-18 20:08:15.736 [info] No remotes found in the git config file.
+2023-10-18 20:08:15.737 [info] > git config --get commit.template [25ms]
+2023-10-18 20:08:15.738 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:08:15.781 [info] > git status -z -uall [25ms]
+2023-10-18 20:08:20.911 [info] No remotes found in the git config file.
+2023-10-18 20:08:20.912 [info] > git config --get commit.template [24ms]
+2023-10-18 20:08:20.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:08:20.957 [info] > git status -z -uall [19ms]
+2023-10-18 20:08:26.083 [info] No remotes found in the git config file.
+2023-10-18 20:08:26.084 [info] > git config --get commit.template [21ms]
+2023-10-18 20:08:26.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:08:26.124 [info] > git status -z -uall [19ms]
+2023-10-18 20:08:31.258 [info] No remotes found in the git config file.
+2023-10-18 20:08:31.259 [info] > git config --get commit.template [22ms]
+2023-10-18 20:08:31.265 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:08:31.307 [info] > git status -z -uall [22ms]
+2023-10-18 20:08:36.424 [info] No remotes found in the git config file.
+2023-10-18 20:08:36.425 [info] > git config --get commit.template [18ms]
+2023-10-18 20:08:36.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:08:36.461 [info] > git status -z -uall [17ms]
+2023-10-18 20:08:41.547 [info] No remotes found in the git config file.
+2023-10-18 20:08:41.548 [info] > git config --get commit.template [19ms]
+2023-10-18 20:08:41.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:08:41.594 [info] > git status -z -uall [28ms]
+2023-10-18 20:08:46.732 [info] No remotes found in the git config file.
+2023-10-18 20:08:46.732 [info] > git config --get commit.template [13ms]
+2023-10-18 20:08:46.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:08:46.767 [info] > git status -z -uall [21ms]
+2023-10-18 20:08:48.995 [info] > git show --textconv :rofi/dark-paper.rasi [19ms]
+2023-10-18 20:08:48.998 [info] > git ls-files --stage -- /home/ene/.config/rofi/dark-paper.rasi [4ms]
+2023-10-18 20:08:50.542 [info] > git show --textconv :rofi/menu.rasi [20ms]
+2023-10-18 20:08:50.545 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [4ms]
+2023-10-18 20:08:51.883 [info] No remotes found in the git config file.
+2023-10-18 20:08:51.884 [info] > git config --get commit.template [19ms]
+2023-10-18 20:08:51.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:08:51.916 [info] > git status -z -uall [16ms]
+2023-10-18 20:08:57.026 [info] No remotes found in the git config file.
+2023-10-18 20:08:57.028 [info] > git config --get commit.template [10ms]
+2023-10-18 20:08:57.028 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:08:57.051 [info] > git status -z -uall [15ms]
+2023-10-18 20:09:02.156 [info] No remotes found in the git config file.
+2023-10-18 20:09:02.157 [info] > git config --get commit.template [18ms]
+2023-10-18 20:09:02.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:09:02.195 [info] > git status -z -uall [20ms]
+2023-10-18 20:09:16.925 [info] > git config --get commit.template [4ms]
+2023-10-18 20:09:16.936 [info] No remotes found in the git config file.
+2023-10-18 20:09:16.938 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-18 20:09:16.964 [info] > git status -z -uall [18ms]
+2023-10-18 20:09:22.074 [info] No remotes found in the git config file.
+2023-10-18 20:09:22.075 [info] > git config --get commit.template [17ms]
+2023-10-18 20:09:22.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:09:22.112 [info] > git status -z -uall [16ms]
+2023-10-18 20:10:48.922 [info] > git config --get commit.template [3ms]
+2023-10-18 20:10:48.937 [info] No remotes found in the git config file.
+2023-10-18 20:10:48.939 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:10:48.973 [info] > git status -z -uall [23ms]
+2023-10-18 20:10:54.056 [info] > git config --get commit.template [1ms]
+2023-10-18 20:10:54.065 [info] No remotes found in the git config file.
+2023-10-18 20:10:54.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:10:54.105 [info] > git status -z -uall [22ms]
+2023-10-18 20:11:14.798 [info] No remotes found in the git config file.
+2023-10-18 20:11:14.799 [info] > git config --get commit.template [14ms]
+2023-10-18 20:11:14.800 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:11:14.826 [info] > git status -z -uall [16ms]
+2023-10-18 20:11:19.931 [info] No remotes found in the git config file.
+2023-10-18 20:11:19.932 [info] > git config --get commit.template [15ms]
+2023-10-18 20:11:19.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-18 20:11:19.958 [info] > git status -z -uall [18ms]
+2023-10-18 20:11:25.038 [info] No remotes found in the git config file.
+2023-10-18 20:11:25.039 [info] > git config --get commit.template [17ms]
+2023-10-18 20:11:25.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:11:25.072 [info] > git status -z -uall [17ms]
+2023-10-18 20:11:30.204 [info] No remotes found in the git config file.
+2023-10-18 20:11:30.205 [info] > git config --get commit.template [18ms]
+2023-10-18 20:11:30.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:11:30.245 [info] > git status -z -uall [22ms]
+2023-10-18 20:11:35.390 [info] No remotes found in the git config file.
+2023-10-18 20:11:35.393 [info] > git config --get commit.template [18ms]
+2023-10-18 20:11:35.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:11:35.438 [info] > git status -z -uall [23ms]
+2023-10-18 20:11:40.524 [info] > git config --get commit.template [5ms]
+2023-10-18 20:11:40.542 [info] No remotes found in the git config file.
+2023-10-18 20:11:40.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:11:40.582 [info] > git status -z -uall [19ms]
+2023-10-18 20:11:45.682 [info] No remotes found in the git config file.
+2023-10-18 20:11:45.683 [info] > git config --get commit.template [17ms]
+2023-10-18 20:11:45.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:11:45.724 [info] > git status -z -uall [22ms]
+2023-10-18 20:11:46.765 [info] > git show --textconv :waybar/config [16ms]
+2023-10-18 20:11:46.769 [info] > git ls-files --stage -- /home/ene/.config/waybar/config [6ms]
+2023-10-18 20:11:50.854 [info] No remotes found in the git config file.
+2023-10-18 20:11:50.855 [info] > git config --get commit.template [19ms]
+2023-10-18 20:11:50.856 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:11:50.882 [info] > git status -z -uall [17ms]
+2023-10-18 20:11:55.966 [info] No remotes found in the git config file.
+2023-10-18 20:11:55.967 [info] > git config --get commit.template [22ms]
+2023-10-18 20:11:55.968 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:11:56.004 [info] > git status -z -uall [21ms]
+2023-10-18 20:12:01.115 [info] > git config --get commit.template [4ms]
+2023-10-18 20:12:01.132 [info] No remotes found in the git config file.
+2023-10-18 20:12:01.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:12:01.169 [info] > git status -z -uall [19ms]
+2023-10-18 20:12:06.292 [info] No remotes found in the git config file.
+2023-10-18 20:12:06.292 [info] > git config --get commit.template [19ms]
+2023-10-18 20:12:06.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-10-18 20:12:06.337 [info] > git status -z -uall [21ms]
+2023-10-18 20:12:08.119 [info] > git show --textconv :sway/switch-workspace-by-position.py [17ms]
+2023-10-18 20:12:08.123 [info] > git ls-files --stage -- /home/ene/.config/sway/switch-workspace-by-position.py [5ms]
+2023-10-18 20:12:10.785 [info] > git show --textconv :sway/dynamic-workspace-naming.py [11ms]
+2023-10-18 20:12:10.786 [info] > git ls-files --stage -- /home/ene/.config/sway/dynamic-workspace-naming.py [2ms]
+2023-10-18 20:12:11.449 [info] No remotes found in the git config file.
+2023-10-18 20:12:11.450 [info] > git config --get commit.template [17ms]
+2023-10-18 20:12:11.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:12:11.487 [info] > git status -z -uall [22ms]
+2023-10-18 20:12:16.602 [info] No remotes found in the git config file.
+2023-10-18 20:12:16.603 [info] > git config --get commit.template [17ms]
+2023-10-18 20:12:16.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:12:16.636 [info] > git status -z -uall [18ms]
+2023-10-18 20:12:21.764 [info] > git config --get commit.template [5ms]
+2023-10-18 20:12:21.780 [info] No remotes found in the git config file.
+2023-10-18 20:12:21.783 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:12:21.820 [info] > git status -z -uall [19ms]
+2023-10-18 20:12:26.928 [info] No remotes found in the git config file.
+2023-10-18 20:12:26.929 [info] > git config --get commit.template [17ms]
+2023-10-18 20:12:26.931 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:12:26.970 [info] > git status -z -uall [21ms]
+2023-10-18 20:12:29.513 [info] > git show --textconv :rofi/menu.rasi [17ms]
+2023-10-18 20:12:29.517 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [5ms]
+2023-10-18 20:12:32.131 [info] No remotes found in the git config file.
+2023-10-18 20:12:32.132 [info] > git config --get commit.template [16ms]
+2023-10-18 20:12:32.133 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:12:32.167 [info] > git status -z -uall [20ms]
+2023-10-18 20:12:37.287 [info] No remotes found in the git config file.
+2023-10-18 20:12:37.288 [info] > git config --get commit.template [17ms]
+2023-10-18 20:12:37.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:12:37.326 [info] > git status -z -uall [21ms]
+2023-10-18 20:12:42.449 [info] No remotes found in the git config file.
+2023-10-18 20:12:42.451 [info] > git config --get commit.template [20ms]
+2023-10-18 20:12:42.455 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:12:42.495 [info] > git status -z -uall [22ms]
+2023-10-18 20:12:45.572 [info] > git show --textconv :sway/dynamic-workspace-naming.py [17ms]
+2023-10-18 20:12:45.575 [info] > git ls-files --stage -- /home/ene/.config/sway/dynamic-workspace-naming.py [4ms]
+2023-10-18 20:12:53.864 [info] No remotes found in the git config file.
+2023-10-18 20:12:53.865 [info] > git config --get commit.template [12ms]
+2023-10-18 20:12:53.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:12:53.895 [info] > git status -z -uall [18ms]
+2023-10-18 20:12:57.863 [info] > git show --textconv :rofi/menu.rasi [17ms]
+2023-10-18 20:12:57.866 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [4ms]
+2023-10-18 20:12:58.979 [info] No remotes found in the git config file.
+2023-10-18 20:12:58.980 [info] > git config --get commit.template [16ms]
+2023-10-18 20:12:58.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:12:59.014 [info] > git status -z -uall [17ms]
+2023-10-18 20:13:00.681 [info] > git show --textconv :rofi/dark-paper.rasi [16ms]
+2023-10-18 20:13:00.685 [info] > git ls-files --stage -- /home/ene/.config/rofi/dark-paper.rasi [4ms]
+2023-10-18 20:13:02.640 [info] > git show --textconv :rofi/config.rasi [18ms]
+2023-10-18 20:13:02.644 [info] > git ls-files --stage -- /home/ene/.config/rofi/config.rasi [4ms]
+2023-10-18 20:13:04.138 [info] No remotes found in the git config file.
+2023-10-18 20:13:04.139 [info] > git config --get commit.template [18ms]
+2023-10-18 20:13:04.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:13:04.175 [info] > git status -z -uall [20ms]
+2023-10-18 20:13:09.305 [info] No remotes found in the git config file.
+2023-10-18 20:13:09.306 [info] > git config --get commit.template [18ms]
+2023-10-18 20:13:09.312 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:13:09.346 [info] > git status -z -uall [20ms]
+2023-10-18 20:13:10.415 [info] > git show --textconv :waybar/style.css [16ms]
+2023-10-18 20:13:10.419 [info] > git ls-files --stage -- /home/ene/.config/waybar/style.css [4ms]
+2023-10-18 20:13:14.472 [info] No remotes found in the git config file.
+2023-10-18 20:13:14.472 [info] > git config --get commit.template [20ms]
+2023-10-18 20:13:14.475 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-18 20:13:14.521 [info] > git status -z -uall [20ms]
+2023-10-18 20:13:19.656 [info] No remotes found in the git config file.
+2023-10-18 20:13:19.656 [info] > git config --get commit.template [18ms]
+2023-10-18 20:13:19.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:13:19.696 [info] > git status -z -uall [21ms]
+2023-10-18 20:13:24.806 [info] No remotes found in the git config file.
+2023-10-18 20:13:24.807 [info] > git config --get commit.template [17ms]
+2023-10-18 20:13:24.813 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:13:24.849 [info] > git status -z -uall [19ms]
+2023-10-18 20:13:29.977 [info] No remotes found in the git config file.
+2023-10-18 20:13:29.977 [info] > git config --get commit.template [17ms]
+2023-10-18 20:13:29.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:13:30.018 [info] > git status -z -uall [19ms]
+2023-10-18 20:13:35.151 [info] No remotes found in the git config file.
+2023-10-18 20:13:35.152 [info] > git config --get commit.template [19ms]
+2023-10-18 20:13:35.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:13:35.200 [info] > git status -z -uall [22ms]
+2023-10-18 20:13:39.167 [info] > git show --textconv :rofi/menu.rasi [20ms]
+2023-10-18 20:13:39.172 [info] > git ls-files --stage -- /home/ene/.config/rofi/menu.rasi [5ms]
+2023-10-18 20:13:40.315 [info] No remotes found in the git config file.
+2023-10-18 20:13:40.316 [info] > git config --get commit.template [17ms]
+2023-10-18 20:13:40.318 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:13:40.353 [info] > git status -z -uall [19ms]
+2023-10-18 20:13:45.486 [info] No remotes found in the git config file.
+2023-10-18 20:13:45.487 [info] > git config --get commit.template [20ms]
+2023-10-18 20:13:45.489 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:13:45.526 [info] > git status -z -uall [19ms]
+2023-10-18 20:13:50.654 [info] No remotes found in the git config file.
+2023-10-18 20:13:50.656 [info] > git config --get commit.template [19ms]
+2023-10-18 20:13:50.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-10-18 20:13:50.698 [info] > git status -z -uall [20ms]
+2023-10-18 20:13:55.817 [info] No remotes found in the git config file.
+2023-10-18 20:13:55.818 [info] > git config --get commit.template [18ms]
+2023-10-18 20:13:55.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:13:55.858 [info] > git status -z -uall [19ms]
+2023-10-18 20:14:00.997 [info] > git config --get commit.template [21ms]
+2023-10-18 20:14:00.998 [info] No remotes found in the git config file.
+2023-10-18 20:14:00.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:14:01.036 [info] > git status -z -uall [18ms]
+2023-10-18 20:14:06.156 [info] No remotes found in the git config file.
+2023-10-18 20:14:06.158 [info] > git config --get commit.template [21ms]
+2023-10-18 20:14:06.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:14:06.203 [info] > git status -z -uall [26ms]
+2023-10-18 20:14:11.329 [info] No remotes found in the git config file.
+2023-10-18 20:14:11.330 [info] > git config --get commit.template [20ms]
+2023-10-18 20:14:11.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:14:11.369 [info] > git status -z -uall [19ms]
+2023-10-18 20:14:16.491 [info] No remotes found in the git config file.
+2023-10-18 20:14:16.492 [info] > git config --get commit.template [23ms]
+2023-10-18 20:14:16.493 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:14:16.534 [info] > git status -z -uall [20ms]
+2023-10-18 20:14:21.665 [info] No remotes found in the git config file.
+2023-10-18 20:14:21.667 [info] > git config --get commit.template [22ms]
+2023-10-18 20:14:21.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-10-18 20:14:21.708 [info] > git status -z -uall [19ms]
+2023-10-18 20:16:08.843 [info] > git config --get commit.template [2ms]
+2023-10-18 20:16:08.851 [info] No remotes found in the git config file.
+2023-10-18 20:16:08.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-18 20:16:08.882 [info] > git status -z -uall [22ms]
+2023-10-18 20:16:14.002 [info] No remotes found in the git config file.
+2023-10-18 20:16:14.004 [info] > git config --get commit.template [18ms]
+2023-10-18 20:16:14.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-10-18 20:16:14.040 [info] > git status -z -uall [20ms]
+2023-10-18 20:16:19.130 [info] > git config --get commit.template [2ms]
+2023-10-18 20:16:19.142 [info] No remotes found in the git config file.
+2023-10-18 20:16:19.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:16:19.180 [info] > git status -z -uall [19ms]
+2023-10-18 20:16:24.562 [info] No remotes found in the git config file.
+2023-10-18 20:16:24.563 [info] > git config --get commit.template [12ms]
+2023-10-18 20:16:24.564 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:16:24.592 [info] > git status -z -uall [18ms]
+2023-10-18 20:17:17.443 [info] No remotes found in the git config file.
+2023-10-18 20:17:17.444 [info] > git config --get commit.template [12ms]
+2023-10-18 20:17:17.445 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-10-18 20:17:17.474 [info] > git status -z -uall [19ms]
+2023-10-18 20:17:22.572 [info] No remotes found in the git config file.
+2023-10-18 20:17:22.573 [info] > git config --get commit.template [15ms]
+2023-10-18 20:17:22.573 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-10-18 20:17:22.599 [info] > git status -z -uall [18ms]
+2023-10-18 20:17:27.681 [info] No remotes found in the git config file.
+2023-10-18 20:17:27.683 [info] > git config --get commit.template [17ms]
+2023-10-18 20:17:27.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-10-18 20:17:27.718 [info] > git status -z -uall [19ms]

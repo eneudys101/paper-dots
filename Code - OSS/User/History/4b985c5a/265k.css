@@ -1,0 +1,22 @@
+window {
+    background: #F9F3CC;
+    border: 5px solid #171C3B;
+    width: 100%;  /* ensure it covers the whole screen width */
+    height: 100%; /* ensure it covers the whole screen height */
+}
+
+box {
+    border: 2px solid #171C3B;
+    background: #F9F3CC;
+    width: 100px; /* specify the width and height of the individual app launchers */
+    height: 100px;
+    margin: 10px; /* space between app launchers */
+}
+
+/* Set the launcher boxes to be in a grid layout */
+#inner-box { 
+    display: grid; /* This makes the container use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    justify-content: center; 
+    align-items: center;
+}

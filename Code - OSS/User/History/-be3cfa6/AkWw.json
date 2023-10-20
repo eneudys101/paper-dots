@@ -1,0 +1,70 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "version": 2,
+    "final_space": true,
+    "blocks": [
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+          {
+            "type": "root",
+            "style": "plain",
+            "foreground": "#94376D",
+            "background": "transparent",
+            "template": " \uf0e7 "
+          },
+          {
+            "type": "os",
+            "style": "plain",
+            "foreground": "#2D8A85",
+            "background": "transparent",
+            "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} "
+          },
+          {
+            "type": "path",
+            "style": "plain",
+            "foreground": "#78A53B",
+            "background": "transparent",
+            "template": " {{ .Path }} "
+          },
+          {
+            "type": "git",
+            "style": "plain",
+            "foreground": "#C65C6A",
+            "background": "transparent",
+            "template": " {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Staging.Changed) (.Working.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} "
+          }
+        ]
+      },
+      {
+        "type": "prompt",
+        "alignment": "right",
+        "segments": [
+          {
+            "type": "time",
+            "style": "plain",
+            "foreground": "#6575A3",
+            "background": "transparent",
+            "template": " {{ .CurrentDate | date .Format }} ",
+            "properties": {
+              "time_format": "15:04:05"
+            }
+          },
+          {
+            "type": "newline",
+            "style": "plain"
+          },
+          {
+            "type": "text",
+            "style": "plain",
+            "foreground": "#606060",
+            "background": "transparent",
+            "template": " ➜ "
+          }
+        ]
+      }
+    ],
+    "osc99": true
+  }
+  

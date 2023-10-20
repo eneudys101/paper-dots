@@ -1,0 +1,6 @@
+2023-10-19 11:48:23.351 [info] Extension host with pid 4069 started
+2023-10-19 11:48:23.351 [info] Skipping acquiring lock for /home/ene/.config/Code - OSS/User/workspaceStorage/d7c96ed335ac508038779b4dda49f48b.
+2023-10-19 11:48:23.935 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-19 11:48:23.945 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-10-19 11:48:24.069 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-19 11:48:24.073 [info] Extension host with pid 4069 exiting with code 0

@@ -1,0 +1,13 @@
+FROM ubuntu:latest
+RUN apt-get update
+RUN apt-get install -y wget
+ADD https://download.java.net/java/GA/jdk16.0.1/7147401fd7354114ac51ef3e1328291f/9/GPL/openjdk-16.0.1_linux-x64_bin.tar.gz /opt/openjdk-16.tar.gz
+RUN tar -xzf /opt/openjdk-16.tar.gz -C /opt && rm /opt/openjdk-16.tar.gz
+ENV JAVA_HOME=/opt/jdk-16.0.1
+ENV PATH="$JAVA_HOME/bin:$PATH"
+RUN mkdir minecraft
+RUN wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c636b07/server.jar -O /tmp/minecraft_server.jar
+WORKDIR /minecraft
+RUN cp /tmp/minecraft_server.jar /minecraft/
+EXPOSE 25565
+

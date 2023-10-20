@@ -1,0 +1,8 @@
+FROM tgagor/centos
+RUN yum -y update
+RUN yum -y install httpd procps
+RUN useradd -M www
+RUN chown -R www:www /var/www /var/run/httpd /var/log/httpd
+USER www
+COPY httpd.conf /etc/httpd/conf/
+CMD httpd -DFOREGROUND

@@ -1,4 +1,0 @@
-2023-10-18 19:54:46.583 [info] [perf] Render performance baseline is 68ms
-2023-10-18 19:54:54.261 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/ene/.config/Code - OSS/logs/20231017T115649/window1/output_20231017T115651' failed: No such file or directory (EUNKNOWN) (path: /home/ene/.config)
-2023-10-18 19:54:54.310 [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '/home/ene/.config/Code - OSS/logs/20231017T115649/window1/output_20231017T115651' failed: No such file or directory
-2023-10-18 19:54:55.227 [info] [perf] Render performance baseline is 80ms

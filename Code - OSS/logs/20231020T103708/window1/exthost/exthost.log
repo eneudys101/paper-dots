@@ -1,6 +1,0 @@
-2023-10-20 10:37:12.170 [info] Extension host with pid 2546 started
-2023-10-20 10:37:12.171 [info] Skipping acquiring lock for /home/ene/.config/Code - OSS/User/workspaceStorage/d7c96ed335ac508038779b4dda49f48b.
-2023-10-20 10:37:12.360 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2023-10-20 10:37:12.400 [info] Extension host terminating: renderer closed the MessagePort
-2023-10-20 10:37:12.409 [info] Extension host with pid 2546 exiting with code 0
-2023-10-20 10:37:12.411 [info] Eager extensions activated
